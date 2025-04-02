@@ -1,29 +1,22 @@
-# message = "hello" + " dufus!"
-# print(message);
-# print("------------------------");
+message = "hello" + " dufus!\n"
+print(message);
 
-# message = "byeee dufus!"
-# print(message);
-# print("------------------------");
+message = "byeee dufus!\n"
+print(message);
 
-name = "ada lovelace"
-# print(name);
+name = "David Olanrewaju\n"
 print(name.title());
-# print(name.upper());
-# print(name.lower());
-print("\n------------------------\n");
+print(name.upper());
+print(name.lower());
 
 first_name = "Adam";
 last_name = "Ogunlesi";
-print(f"Hello, {first_name} {last_name}, its nice to meet you");
-print("\n------------------------\n");
+print(f"Hello, {first_name} {last_name}, its nice to meet you\n");
 
-fav_lang = "   py"
-fad_lang = "thon   "
-# print(fav_lang.lstrip())
-# print(fad_lang.rstrip())
-fav_lang = fav_lang.lstrip()
-fad_lang = fad_lang.rstrip()
+phrase_2 = "   py"
+phrase_1 = "thon   "
+fav_lang = phrase_2.lstrip()
+fad_lang = phrase_1.rstrip()
 karma = fav_lang + fad_lang
 print(karma)
 # print("---str-int-var-const------");
