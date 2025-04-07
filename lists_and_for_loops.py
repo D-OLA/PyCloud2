@@ -1,25 +1,20 @@
 market_list = ['pepper', 'tomato', 'okra', 'milk', 'milo']
-# print (market_list[3])
-# message = f"\nThe only thing I forgot to get was {market_list[0]}\n"
-# print (message)
+print (market_list[2])
+
+message = f"\nThe only thing I forgot to get was {market_list[-1]}\n"
+print (message)
 
 names = ['Kanu', 'Quadri', 'Shola', 'Tolu', 'Gbemi']
-# for nick in names:
-# 	print(nick)
+for nicknames in names:
+	print(f"{nicknames}\n")
 
-# print (names[0])
-# print (names[1])
-# print (names[2])
-# print (names[3])
-# print (names[4])
-
-names.append('Chioma')
-print(names)
+# names.append('Chioma')
+# print(names)
 # names.insert(0, 'Tunde')
 # print(names)
 
-# del names[-1]
-# print(names)
+del names[-1]
+print(names)
 
 # popped_out = names.pop()
 # print(popped_out)
@@ -35,9 +30,9 @@ print(names)
 
 market_list.append('chocolate')
 # market_list.reverse()
-# print(sorted(market_list))
-# market_list.reverse()
-# print(f'{market_list}\n')
+print(sorted(market_list))
+market_list.reverse()
+print(f'{market_list}\n')
 
 # print(len(names))
 # print(len(market_list))
@@ -54,7 +49,7 @@ market_list.append('chocolate')
 # for value in range(1, 6):
 # 	print(value)
 
-even_numbers = list(range(2, 11, 2))
+even_numbers = list(range(2, 19, 2))
 print(even_numbers)
 
 # squares = []
@@ -63,16 +58,12 @@ print(even_numbers)
 # 	squares.append(square)
 
 # print(squares)
-# print("-----------")
-# print("-----------")
 
 # for number in range(1, 21):
 # 	print(number)
-# print("-----------")
-# print("-----------")
 
 million_list = range(1,1000001)
-print(min(million_list))
+print(f"\n{min(million_list)}")
 print(max(million_list))
 
 output = sum(million_list)

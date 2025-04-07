@@ -1,15 +1,16 @@
 car = 'Bmw'
-# print(car != 'audi')
-print(f'The car is a {car} not an Audi\n')
+sure = car != 'audi'
+if sure == True:
+	print(f'The car is a {car} not an Audi\n')
 
 # # = used for assignment
 # # == used to check for equality
 # # != used to check for inequality
 
-if car.title() != 'Bmw':
-	print(f"Told ya it was a {car.title()} not a Bmw\n")
-else:
-	print("yayy... its a Bmw\n") 
+# if car.title() != 'Bmw':
+# 	print(f"Told ya it was a {car.title()} not a Bmw\n")
+# else:
+# 	print("yayy... its a Bmw\n") 
 
 # number = 14
 # print(number <= 13 and number >5)
@@ -18,17 +19,15 @@ else:
 # print('porkiyo' in nicknames)
 # print('dave' not in nicknames)
 
-
-# alien_color = "red"
-# if alien_color == "green":
-# 	print("\nPlayer just earned 5 points")
-# elif alien_color == "yellow":
-# 	print("\nPlayer just earned 10 points")
-# else:
-# 	print("\nPlayer just earned 15 points")
-# alien_color = "red"
-# if alien_color == "green":
-# 	print("\nIgahalo") 
+alien_color = input("What is the color of your blood? : ")
+if alien_color == "green":
+	print("\nPlayer just earned 5 points")
+elif alien_color == "yellow":
+	print("\nPlayer just earned 10 points")
+elif alien_color == "red":
+	print("\nPlayer just earned 15 points")
+else:
+	print("\nPlayer does not exist")
 
 favorite_fruits = ["apple", "banana", "pawpaw"]
 
