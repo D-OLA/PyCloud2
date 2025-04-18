@@ -7,23 +7,23 @@
 height = input("How tall are you in inches: ")
 height = int(height)
 
-if height >= 48:
-	print("\nYou are tall enough\n")
+if height >= 60:
+	print("\nYes! You are old enough for this\n")
 else:
-	print("\nEat more beans\n")
+	print("\nYou're still just a child... try enlisting again next year\n")
 
 # prompt2 = '\nwhat kind of car would you like: '
 # carType = input(prompt2.title())
 # print(f"\nLet me see if i can find you a {carType}")
 
-# prompt3 = "\nhow many people are in your dinner group: "
-# dinnersize = input(prompt3.title())
-# dinnersize = int(dinnersize)
-# if dinnersize > 8:
-# 	excuse = "\nYou'll have to wait for a table"
-# 	print(excuse.title())
-# else:
-# 	print(f"\nplease the {dinnersize} of you can come right this way")
+prompt3 = "\nhow many people are in your dinner group: "
+dinnersize = input(prompt3.title())
+dinnersize = int(dinnersize)
+if dinnersize > 8:
+	excuse = "\nYou'll have to wait for a table"
+	print(excuse.title())
+else:
+	print(f"\nplease the {dinnersize} of you can come right this way")
 
 
 # import functions
