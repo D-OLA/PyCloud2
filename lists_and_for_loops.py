@@ -52,15 +52,15 @@ print(f'{market_list}\n')
 even_numbers = list(range(2, 19, 2))
 print(even_numbers)
 
-# squares = []
-# for value in range(1,11):
-# 	square = value **2
-# 	squares.append(square)
+squares = []
+for value in range(1,11):
+	square = value **2
+	squares.append(square)
 
-# print(squares)
+print(squares)
 
-# for number in range(1, 21):
-# 	print(number)
+for number in range(1, 21):
+	print(number)
 
 million_list = range(1,1000001)
 print(f"\n{min(million_list)}")
